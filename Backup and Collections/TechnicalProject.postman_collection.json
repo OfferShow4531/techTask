@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "7bdbab44-5d3a-44f0-9fe9-67ed558aa50e",
+		"name": "TechnicalProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11880771"
+	},
+	"item": [
+		{
+			"name": "checkPostgreSQLConnection",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "createTask",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJleHAiOjE3NDE4ODczMTEsImlzcyI6IlRlc3RpbmdUYXNrIiwiYXVkIjoiVGFza0F1ZGllbmNlIn0.j73ti2AKJq0N54D5ZcF5CX1tcpugzd_Z5wqpCYRpaSY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Task Three\",\r\n  \"description\": \"Test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7270/api/Tasks/tasks",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"Tasks",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterTaskByStatus",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "filterTaskById",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "editTaskById",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJleHAiOjE3NDE4ODczMTEsImlzcyI6IlRlc3RpbmdUYXNrIiwiYXVkIjoiVGFza0F1ZGllbmNlIn0.j73ti2AKJq0N54D5ZcF5CX1tcpugzd_Z5wqpCYRpaSY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"description\": \"Edited task for status InProgress\",\r\n  \"status\": \"InProgress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7270/api/Tasks/tasks/0d10cfb9-1a63-4ca4-b49f-42a1c809bd29",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"Tasks",
+						"tasks",
+						"0d10cfb9-1a63-4ca4-b49f-42a1c809bd29"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteTaskById",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJleHAiOjE3NDE4ODczMTEsImlzcyI6IlRlc3RpbmdUYXNrIiwiYXVkIjoiVGFza0F1ZGllbmNlIn0.j73ti2AKJq0N54D5ZcF5CX1tcpugzd_Z5wqpCYRpaSY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7270/api/Tasks/tasks/0d10cfb9-1a63-4ca4-b49f-42a1c809bd29",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"Tasks",
+						"tasks",
+						"0d10cfb9-1a63-4ca4-b49f-42a1c809bd29"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getToken",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"password\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7270/api/auth/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
