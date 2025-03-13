@@ -14,7 +14,7 @@ namespace RESTfulAPI_Technical_Task_.Composable
             // Маппинг токенов
             CreateMap<TokenDTO, TokenDTO>(); // Токены
 
-            // Маппинг логина (оставляем, если понадобится)
+            // Маппинг логина (если понадобится)
             CreateMap<LoginRequest, LoginRequest>();
         }
     }

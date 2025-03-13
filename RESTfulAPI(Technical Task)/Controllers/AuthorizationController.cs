@@ -22,7 +22,7 @@ namespace RESTfulAPI_Technical_Task_.Controllers
         {
             try
             {
-                if (request.Username != "admin" || request.Password != "password") // Заменить на проверку в БД
+                if (request.Username != "admin" || request.Password != "password")
                     return Unauthorized("Invalid credentials");
 
                 var token = await _jwtService.GenerateTokenAsync(request.Username);

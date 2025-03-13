@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\fluentvalidator\\taskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\fluentvalidator\\taskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\fluentvalidator\\updatetaskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\fluentvalidator\\updatetaskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\dbcontext\\dapperconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\dbcontext\\dapperconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\composable\\mappingmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +55,8 @@
       "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\composable\\signarhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\backgroundjobservice\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\backgroundjobservice\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|solutionrelative:restfulapi(technical task)\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D437D1EF-557F-4BAA-A9AF-25E76E095F0E}|RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task).csproj|c:\\users\\vjqif\\source\\repos\\restfulapi(technical task)\\restfulapi(technical task)\\composable\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +70,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "UpdateTaskValidator.cs",
+              "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\FluentValidator\\UpdateTaskValidator.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\FluentValidator\\UpdateTaskValidator.cs",
+              "ToolTip": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\FluentValidator\\UpdateTaskValidator.cs",
+              "RelativeToolTip": "RESTfulAPI(Technical Task)\\FluentValidator\\UpdateTaskValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:52:17.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DapperConnection.cs",
+              "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\DbContext\\DapperConnection.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\DbContext\\DapperConnection.cs",
+              "ToolTip": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\DbContext\\DapperConnection.cs",
+              "RelativeToolTip": "RESTfulAPI(Technical Task)\\DbContext\\DapperConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:52:14.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskValidator.cs",
+              "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\FluentValidator\\TaskValidator.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\FluentValidator\\TaskValidator.cs",
+              "ToolTip": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\FluentValidator\\TaskValidator.cs",
+              "RelativeToolTip": "RESTfulAPI(Technical Task)\\FluentValidator\\TaskValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:50:53.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MappingModels.cs",
               "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\Composable\\MappingModels.cs",
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\Composable\\MappingModels.cs",
@@ -75,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "TokenDTO.cs",
               "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\Model\\TokenDTO.cs",
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\Model\\TokenDTO.cs",
@@ -88,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "TaskModel.cs",
               "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\Model\\TaskModel.cs",
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\Model\\TaskModel.cs",
@@ -101,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "TaskDTO.cs",
               "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\Model\\TaskDTO.cs",
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\Model\\TaskDTO.cs",
@@ -114,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "SignaRHub.cs",
               "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\Composable\\SignaRHub.cs",
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\Composable\\SignaRHub.cs",
@@ -127,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "JobService.cs",
               "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\BackgroundJobService\\JobService.cs",
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\BackgroundJobService\\JobService.cs",
@@ -140,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\Composable\\JwtService.cs",
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\Composable\\JwtService.cs",
@@ -153,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "AuthorizationController.cs",
               "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\Controllers\\AuthorizationController.cs",
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\Controllers\\AuthorizationController.cs",
@@ -166,20 +217,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\Controllers\\TasksController.cs",
               "ToolTip": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\Controllers\\TasksController.cs",
               "RelativeToolTip": "RESTfulAPI(Technical Task)\\Controllers\\TasksController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAE0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T15:00:46.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\Model\\LoginRequest.cs",
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\Model\\LoginRequest.cs",
@@ -192,13 +243,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\appsettings.json",
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\appsettings.json",
               "ToolTip": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\appsettings.json",
               "RelativeToolTip": "RESTfulAPI(Technical Task)\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-13T14:59:14.587Z",
               "EditorCaption": ""
@@ -211,7 +262,7 @@
               "RelativeDocumentMoniker": "RESTfulAPI(Technical Task)\\Program.cs",
               "ToolTip": "C:\\Users\\vjqif\\source\\repos\\RESTfulAPI(Technical Task)\\RESTfulAPI(Technical Task)\\Program.cs",
               "RelativeToolTip": "RESTfulAPI(Technical Task)\\Program.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAewFQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T14:57:36.227Z",
               "EditorCaption": ""

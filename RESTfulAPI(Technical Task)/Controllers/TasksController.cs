@@ -28,7 +28,7 @@ namespace RESTfulAPI_Technical_Task_.Controllers
 
         private static List<TaskModel> _tasks = new();
 
-        // 1) POST /TaskModel - Создание новой задачи
+       
         [HttpPost("tasks")]
         public async Task<IActionResult> CreateTask([FromBody] TaskDTO task)
         {
@@ -45,7 +45,6 @@ namespace RESTfulAPI_Technical_Task_.Controllers
             return Ok(new { message = "Task created", taskId });
         }
 
-        // 2) GET /TaskModel/{id} - Получение задачи по ID
         [HttpGet("tasks/{id}")]
         public async Task<IActionResult> GetTaskById(Guid id)
         {
@@ -62,7 +61,6 @@ namespace RESTfulAPI_Technical_Task_.Controllers
             return Ok(task);
         }
 
-        // 3) GET /TaskModel - Получение списка всех задач с возможностью фильтрации по Status
         [HttpGet("tasks")]
         public async Task<IActionResult> GetAllTaskModel([FromQuery] TaskStatus status)
         {
@@ -78,7 +76,6 @@ namespace RESTfulAPI_Technical_Task_.Controllers
             return Ok(new { taskDTOs.Count, Tasks = taskDTOs });
         }
 
-        // 4) PUT /TaskModel/{id} - Обновление задачи
         [HttpPut("tasks/{id}")]
         public async Task<IActionResult> UpdateTask(Guid id, [FromBody] UpdateTaskDTO updatedTask)
         {
@@ -99,7 +96,6 @@ namespace RESTfulAPI_Technical_Task_.Controllers
             return Ok($"Database updated with UUID: {id}");
         }
 
-        // 5) DELETE /TaskModel/{id} - Удаление задачи
         [HttpDelete("tasks/{id}")]
         public async Task<IActionResult> DeleteTask(Guid id)
         {

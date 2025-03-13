@@ -34,7 +34,6 @@ namespace RESTfulAPI_Technical_Task_.Composable
 
             var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
 
-            // Сохраняем токен в базе
             var query = @"INSERT INTO ""TechnicalAPI"".""Tokens"" (""Token"", ""CreatedAt"", ""ExpiresAt"") 
                       VALUES (@Token, @CreatedAt, @ExpiresAt);";
             await _db.ExecuteAsync(query, new { Token = tokenString, CreatedAt = DateTime.UtcNow, ExpiresAt = expires });

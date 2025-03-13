@@ -51,7 +51,6 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Твой API", Version = "v1" });
 
-    // 🔹 Добавляем кнопку авторизации в Swagger UI
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -62,7 +61,6 @@ builder.Services.AddSwaggerGen(c =>
         Description = "Введите JWT токен в формате: Bearer YOUR_TOKEN"
     });
 
-    // 🔹 Добавляем требование к каждому запросу передавать JWT токен
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
@@ -87,15 +85,14 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Host.UseSerilog((context, services, configuration) =>
 {
     configuration
-        .ReadFrom.Configuration(context.Configuration) // Читаем настройки из appsettings.json
-        .ReadFrom.Services(services) // Позволяет использовать ILogger<T>
+        .ReadFrom.Configuration(context.Configuration) 
+        .ReadFrom.Services(services) 
         .Enrich.FromLogContext()
         .WriteTo.Console()
         .WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Day)
         .MinimumLevel.Information();
 });
 
-// Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -17,7 +17,6 @@ namespace RESTfulAPI_Technical_Task_.DbContext
             _logger = logger;
         }
 
-        // Получить все задачи с фильтрацией по статусу
         public async Task<IEnumerable<TaskModel>> GetTasksAsync(TaskStatus? status = null)
         {
             var query = "SELECT * FROM \"TechnicalAPI\".\"Tasks\"";
@@ -29,7 +28,6 @@ namespace RESTfulAPI_Technical_Task_.DbContext
             return await _db.QueryAsync<TaskModel>(query);
         }
 
-        // Получить задачу по ID
         public async Task<T?> GetTaskByIdAsync<T>(Guid id)
         {
             _logger.LogInformation("Запрос в БД: получение задачи с ID {TaskId}", id);
@@ -43,7 +41,6 @@ namespace RESTfulAPI_Technical_Task_.DbContext
             return task;
         }
 
-        // Добавить новую задачу
         public async Task<int> AddTaskAsync(TaskModel task)
         {
             var query = @"INSERT INTO ""TechnicalAPI"".""Tasks"" 
@@ -63,7 +60,6 @@ namespace RESTfulAPI_Technical_Task_.DbContext
             return await _db.ExecuteAsync(query, parameters);
         }
 
-        // Обновить задачу
         public async Task<int> UpdateTaskAsync(UpdateTaskDTO task, Guid id)
         {
             var query = @"UPDATE ""TechnicalAPI"".""Tasks"" 
@@ -81,7 +77,6 @@ namespace RESTfulAPI_Technical_Task_.DbContext
             return await _db.ExecuteAsync(query, parameters);
         }
 
-        // Удалить задачу
         public async Task<int> DeleteTaskAsync(Guid id)
         {
             var query = @"DELETE FROM ""TechnicalAPI"".""Tasks"" WHERE ""Id"" = @Id;";
